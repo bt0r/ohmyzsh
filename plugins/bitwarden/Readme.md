@@ -7,11 +7,11 @@ Bitwarden-cli integration with easier `list` and `unlock` commands.
 
 ## Usage
 ### List
-`bitwarden list` : List all items from your vault.
-`bitwarden list <search>` : List items by using a pre-filter.
+* `bitwarden list` : List all items from your vault.
+* `bitwarden list <search>` : List items by using a pre-filter.
 
 ### Unlock
-`bitwarden unlock` : Unlock your vault and add the session key in your environment variable
+* `bitwarden unlock` : Unlock your vault and add the session key in your environment variable
 
 Other commands are forwarded to default `bw` command.
 Ex: `bitwarden login --sso` will trigger `bw login --sso` 
